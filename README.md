@@ -1,6 +1,6 @@
 # huskyKinetic
 KineticRos_Husky Setup
-Make sure you are using Ubuntu 16.04
+- Make sure you are using Ubuntu 16.04
 
 ### Prerequisites
 - follow the installation process for ROS Kinetic
