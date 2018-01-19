@@ -6,14 +6,18 @@ Make sure you are using Ubuntu 16.04
 - follow the installation process for ROS Kinetic
 http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-open a terminal
+open a terminal (Ctrl+Alt+T) and copy(Ctrl+C)-paste(Ctrl+Shift+V) 
 ```
 sudo apt-get install ros-kinetic-controller-manager
+```
+After you entered your password, you can copy-paste below items
+```
 sudo apt-get install ros-kinetic-multimaster-launch
 sudo apt-get install ros-kinetic-lms1xx
 sudo apt-get install ros-kinetic-interactive-marker-twist-server
 sudo apt-get install ros-kinetic-twist-mux
 ```
+
 ## Getting Started
 open a new terminal
 
@@ -38,31 +42,31 @@ make sure you are "On branch kinetic-devel"
 
 then come back to husky_ws (~/husky_ws$)
 
-
-
-
 ~/husky_ws/src/husky$ cd ..
 ~/husky_ws/src$ cd ..
 ```
 catkin_make
 ```
-then (LoginName@DeviceName)
+Up to now it should look like that
+![1stImage](https://github.com/cagrikilic/huskyKinetic/blob/master/img/sc1.png)
+![2ndImage](https://github.com/cagrikilic/huskyKinetic/blob/master/img/sc2.png)
+
+then (LoginName@DeviceName) in order to open husky in gazebo
+
 ```
 source /home/LoginName/husky_ws/devel/setup.bash
-```
-in order to open husky in gazebo
-```
 roslaunch husky_gazebo husky_empty_world.launch
 ```
 then open another terminal
 this opens husky in rviz
 ```
+source /home/LoginName/husky_ws/devel/setup.bash
 roslaunch husky_viz view_model.launch
 ```
 
 
 
-![My image](https://github.com/cagrikilic/huskyKinetic/blob/master/sc1.png)
+
 
 
 
