@@ -62,7 +62,7 @@ roslaunch husky_viz view_model.launch
 
 
 
-![My image](cagrikilic.github.com/huskyKinetic/sc1.png)
+![My image](https://github.com/cagrikilic/huskyKinetic/blob/master/sc1.png)
 
 
 
