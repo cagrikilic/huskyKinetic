@@ -38,6 +38,9 @@ make sure you are "On branch kinetic-devel"
 
 then come back to husky_ws (~/husky_ws$)
 
+
+
+
 ~/husky_ws/src/husky$ cd ..
 ~/husky_ws/src$ cd ..
 ```
@@ -59,7 +62,7 @@ roslaunch husky_viz view_model.launch
 
 
 
-
+![My image](cagrikilic.github.com/huskyKinetic/sc1.png)
 
 
 
