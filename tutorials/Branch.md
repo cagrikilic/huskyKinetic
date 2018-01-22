@@ -21,6 +21,6 @@ git commit -m "add [folder_name]"
 ```
 -In order to push them a branch (online)
 ```
-git push --set-upstream origin trial
+git push --set-upstream origin [branch_name]
 ```
 -then you all set. You can merge it after.
