@@ -1,6 +1,5 @@
 Navigation:
-Estimate the position, orientat
-ion and velocity of a vehicle
+Estimate the position, orientation and velocity of a vehicle
 
 Odometry: odos metron (route measure)
 - The use of data from motion sensors (e.g wheel encoders) to estimate change in position in time.
@@ -15,14 +14,14 @@ Odometry: odos metron (route measure)
   2- Left encoder made (700/88)=7.95
       D_L=21.98+5.97=27.95 ft
       V_L=27.95/5=5.59 ft/sec
-  3- Total Distance -> D_tot= (D_L+D_R)/2 =33.375 ft
+  3- Total Distance -> D_tot= (D_L+D_R)/2 =32.375 ft
   4- Average velocity -> V_avg= 32.375/5=6.475 ft/seconds
   5- Since D_R>D_L, robot turned to the Left
   6- Average angle the robot traveled -> Theta = (D_R-D_L)/WheelBase
       Theta=(36.8-27.95)/3 =2.95 rad
   7- X=D_tot* sin(Theta)=32.375*sin(2.95)=6.16ft & Y=D_tot*cos(Theta)=32.375*cos(2.95)=31.78ft
 
-
+IMU=RATEGYROSCOPE+ACCELEROMETER
 Inertial measurement units (IMUs) typically contain three orthogonal rate-gyroscopes and three orthogonal accelerometers, measuring angular velocity and linear acceleration respectively. By processing signals from these devices it is possible to track the position and orientation of a device.Three gyros and three accelormeters are normally combined in an IMU. (e.g Honeywell HG1700)
 An inertial measurement unit (IMU) contains a cluster of sensors: accelerometers (three or more, but usually three) and gyroscopes
 (three or more, but usually three). These sensors are rigidly mounted to a common base to maintain the same relative orientation.
