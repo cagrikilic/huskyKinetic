@@ -37,6 +37,12 @@ then
 ```
 cd husky/
 git status
+
+https://answers.ros.org/question/269119/husky-simulator-in-kinetic/
+
+rosdep update
+cd /path/to/your/catkin_ws
+rosdep install --from-paths src/ --ignore-src
 ```
 make sure you are "On branch kinetic-devel"
 
