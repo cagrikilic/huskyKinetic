@@ -54,13 +54,13 @@ Up to now it should look like that
 then (LoginName@DeviceName) in order to open husky in gazebo
 
 ```
-source /home/LoginName/husky_ws/devel/setup.bash
+source /home/cagri/husky_ws/devel/setup.bash
 roslaunch husky_gazebo husky_empty_world.launch
 ```
 then open another terminal
 this opens husky in rviz
 ```
-source /home/LoginName/husky_ws/devel/setup.bash
+source /home/cagri/husky_ws/devel/setup.bash
 roslaunch husky_viz view_model.launch
 ```
 
