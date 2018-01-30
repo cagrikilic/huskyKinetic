@@ -34,4 +34,6 @@ If you have a nodelet_plugins.xml error try this
  ```
  roslaunch turtlebot_gazebo turtlebot_world.launch 
  ```
- 
+ ```
+ roslaunch turtlebot_teleop keyboard_teleop.launch 
+ ```
