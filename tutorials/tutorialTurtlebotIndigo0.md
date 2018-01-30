@@ -1,3 +1,5 @@
+
+
 After installing the turtlebot in a new terminal
 ```
  roslaunch turtlebot_gazebo turtlebot_world.launch
@@ -119,3 +121,4 @@ Then run the location_monitor node
 ```
 rosrun location_monitor location_monitor_node
 ```
+Or use this - http://wiki.ros.org/evarobot_odometry/Tutorials/indigo/Writing%20a%20Simple%20Subscriber%20for%20Odometry
